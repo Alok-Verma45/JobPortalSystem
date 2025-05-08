@@ -20,7 +20,7 @@ public class User {
 
     private String password;
 
-    // This was rollNO, probably meant role (use Enum instead of int)
+    // This was rollNO, probably meant a role (use Enum instead of int)
     @Enumerated(EnumType.STRING)
     private UserRole role;
 
